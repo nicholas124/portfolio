@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Leaf Doctor (Plant AI)"
               description="Used the plant disease dataset from Plant Villiage and trained a image classifer model using 'Tensorflow' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 3 unique plants. I was able to achieve an accuracy of 98% by using Mobilvnet pretrained model. I then deployed the project to the mobile platform(ANDROID) using java and kotlin."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              link="https://github.com/nicholas124/Leaf-Doctor-Android-Application.git"
             />
           </Col>
 {/* 
