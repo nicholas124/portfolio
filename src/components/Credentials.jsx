@@ -4,7 +4,7 @@ export default function Credentials() {
   return (
     <section id="credentials" className="section container">
       <h2 className="section__title">
-        <span className="section__num">04.</span> Education &amp; Certifications
+        <span className="section__num">05.</span> Education &amp; Certifications
       </h2>
 
       <div className="credentials">

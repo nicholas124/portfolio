@@ -79,6 +79,19 @@ export const experience = [
   },
 ]
 
+export const projects = [
+  {
+    title: 'This Portfolio — Serverless on AWS',
+    featured: true,
+    image: '/architecture.svg',
+    description:
+      'The site you are reading — a full-stack serverless app on AWS. A React + Vite static build is served globally from a private S3 bucket through CloudFront, secured with an ACM TLS certificate and a custom domain on Route 53, with a CloudFront Function that 301-redirects www to the apex. The contact form and live visitor counter run on API Gateway + Lambda, backed by DynamoDB (counter) and SES (email). Everything runs within the AWS free tier.',
+    tags: ['React', 'Vite', 'CloudFront', 'Lambda', 'API Gateway', 'DynamoDB', 'SES'],
+    demo: 'https://nicholasmuchelemba.com',
+    repo: 'https://github.com/nicholas124/portfolio',
+  },
+]
+
 export const skills = [
   {
     group: 'Backend & APIs',

@@ -37,7 +37,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section section--narrow container">
       <h2 className="section__title section__title--center">
-        <span className="section__num">05.</span> Get in touch
+        <span className="section__num">06.</span> Get in touch
       </h2>
       <p className="contact__lede">
         Have a question or want to work together? Drop me a message and I'll get back to you.
