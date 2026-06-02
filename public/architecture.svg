@@ -84,23 +84,23 @@
   <line x1="530" y1="307" x2="612" y2="272" stroke="#3a3752" stroke-width="1.6" marker-end="url(#arrow)"/>
   <text x="412" y="262" text-anchor="middle" fill="#5b6178" font-size="12">resolve + secure</text>
 
-  <!-- ============ LANE 2: BUILD & DEPLOY ============ -->
-  <text x="60" y="408" fill="#a78bfa" font-size="14" font-weight="600" letter-spacing="2">BUILD &amp; DEPLOY</text>
+  <!-- ============ LANE 2: BUILD & DEPLOY (CI/CD) ============ -->
+  <text x="60" y="408" fill="#a78bfa" font-size="14" font-weight="600" letter-spacing="2">BUILD &amp; DEPLOY · CI/CD</text>
 
   <g>
     <rect x="60" y="430" width="220" height="86" rx="14" fill="#13111f" stroke="#2a2740"/>
-    <text x="170" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">React + Vite</text>
-    <text x="170" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">component source</text>
+    <text x="170" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">git push → main</text>
+    <text x="170" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">React + Vite source</text>
   </g>
   <g>
     <rect x="350" y="430" width="220" height="86" rx="14" fill="#13111f" stroke="#2a2740"/>
-    <text x="460" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">npm run build</text>
-    <text x="460" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">static dist/ bundle</text>
+    <text x="460" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">GitHub Actions</text>
+    <text x="460" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">npm build · OIDC</text>
   </g>
   <g>
     <rect x="640" y="430" width="220" height="86" rx="14" fill="#13111f" stroke="#2a2740"/>
-    <text x="750" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">aws s3 sync</text>
-    <text x="750" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">+ CDN invalidation</text>
+    <text x="750" y="466" text-anchor="middle" fill="#f4f5fb" font-size="18" font-weight="600">S3 sync</text>
+    <text x="750" y="490" text-anchor="middle" fill="#8b8fa6" font-size="13">+ CloudFront invalidate</text>
   </g>
 
   <line x1="280" y1="473" x2="346" y2="473" stroke="#5b6178" stroke-width="2" marker-end="url(#arrow)"/>
