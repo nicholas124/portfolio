@@ -4,12 +4,12 @@
 
 export const profile = {
   name: 'Nicholas Muchelemba',
-  role: 'Backend & API Engineer',
+  role: 'Backend & API Software Engineer',
   tagline:
-    'I design and scale secure, cloud-native APIs and backend services — across healthcare, finance, and mining. AWS Solutions Architect & Certified Kubernetes Administrator.',
+    'I design and scale secure, cloud-native APIs and backend services — across healthcare, finance, and the resource sector. AWS Solutions Architect, Certified Kubernetes Administrator, and PMP.',
   location: 'Lusaka, Zambia',
   email: 'nmuchelemba60@gmail.com',
-  resumeUrl: '/Nicholas_Muchelemba_Resume.pdf',
+  resumeUrl: '/Nicholas-Muchelemba-Resume.pdf',
   socials: [
     { label: 'GitHub', url: 'https://github.com/nicholas124' },
     { label: 'LinkedIn', url: 'https://linkedin.com/in/nicholas-muchelemba' },
@@ -18,12 +18,15 @@ export const profile = {
 }
 
 export const about = [
-  `I'm a backend and API engineer with 4+ years of experience building and scaling
-   secure, cloud-based systems across the healthcare, finance, and mining domains.`,
+  `I'm a backend and API software engineer with 5+ years of experience building and
+   scaling secure, cloud-based systems across the healthcare, finance, and resource
+   sectors.`,
   `I specialize in designing reliable RESTful APIs and backend services with Python
-   (FastAPI), Java, and AWS — focused on improving system performance, reducing manual
-   processes, and enabling data-driven decisions. I'm a certified AWS Solutions Architect
-   and Certified Kubernetes Administrator, currently pursuing a Master's in Data Science.`,
+   (FastAPI), Java, and AWS — focused on improving performance, reducing manual
+   processes, and enabling data-driven decisions. I also lead delivery across the full
+   software lifecycle, coordinating cross-functional teams and aligning architecture with
+   product goals. I'm an AWS Certified Solutions Architect, Certified Kubernetes
+   Administrator, and PMP, currently pursuing a Master's in Data Science.`,
 ]
 
 export const experience = [
@@ -99,26 +102,35 @@ export const skills = [
       'Python (FastAPI)',
       'Java',
       'C# (.NET, Blazor)',
-      'PHP',
-      'RESTful API Design & Integration',
+      'PHP · JavaScript · SQL',
+      'REST API design & microservices',
     ],
   },
   {
     group: 'Cloud & DevOps',
     items: [
-      'AWS (S3, Athena, SageMaker, Kendra)',
-      'Cloud Architecture & Infrastructure',
-      'Kubernetes (CKA)',
-      'CI/CD & Deployment',
+      'AWS (Lambda, API Gateway, S3, EKS, SageMaker)',
+      'Docker & Kubernetes (CKA)',
+      'Cloud architecture & infrastructure',
+      'CI/CD & deployment',
     ],
   },
   {
     group: 'Data & ML',
     items: [
-      'Data Processing & Automation',
-      'Power BI & Data Visualization',
+      'Data processing & automation',
+      'Power BI & data visualization',
       'Machine Learning',
       'TensorFlow',
+    ],
+  },
+  {
+    group: 'Delivery & Practices',
+    items: [
+      'Project delivery (PMP)',
+      'SDLC & Agile',
+      'System & third-party integration',
+      'Production support',
     ],
   },
 ]
@@ -142,6 +154,7 @@ export const education = [
 ]
 
 export const certifications = [
+  { name: 'Project Management Professional (PMP)®', issuer: 'Project Management Institute', year: '2026' },
   { name: 'AWS Certified Solutions Architect – Associate', issuer: 'Amazon Web Services', year: '2025' },
   { name: 'Certified Kubernetes Administrator (CKA)', issuer: 'The Linux Foundation', year: '2024' },
   { name: 'AWS Certified Machine Learning – Specialty', issuer: 'Amazon Web Services', year: '2023' },

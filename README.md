@@ -35,7 +35,7 @@ Almost everything lives in **`src/data/content.js`** — name, role, tagline, so
 about, experience, projects, skills, education, and certifications. Edit that one file first.
 
 Other touch points:
-- Resume: `public/Nicholas_Muchelemba_Resume.pdf` (linked via `profile.resumeUrl`).
+- Resume: `public/Nicholas-Muchelemba-Resume.pdf` (linked via `profile.resumeUrl`).
 - Favicon / colors: `public/favicon.svg` and the `:root` design tokens in `src/index.css`.
 - Architecture diagram: `public/architecture.svg` (and `.png` for sharing).
 
